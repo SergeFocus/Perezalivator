@@ -11,7 +11,7 @@
 
 Имеется GUI-интерфейс для выбора базы-приемника и базы-назначения, а также окно с выводом результата.
 
-<img src="https://github.com/Tavalik/Perezalivator/raw/master/Screenshots/Perezalivator1.png" alt="Скриншот1">
+<img src="https://github.com/Tavalik/Perezalivator/raw/master/Screenshots/Perezalivator.png" alt="Скриншот1">
 
 ## Установка
 
@@ -45,17 +45,11 @@ opm install -f <Путь к файлу Perezalivator-<версия>.ospx>
 
 Проверить корректность введенных настроек можно запустив файл **Perezalivator_Run_Test.bat**. Перезаливатор будет запущен в режиме тестирования настроек.
 
-При следующем запуске файла **Perezalivator_Run.bat** откроется окно, в котором необходимо выбрать базу-источник
-
-<img src="https://github.com/Tavalik/Perezalivator/raw/master/Screenshots/Perezalivator2.png" alt="Скриншот2">
-
-и базу-назначения.
-
-<img src="https://github.com/Tavalik/Perezalivator/raw/master/Screenshots/Perezalivator3.png" alt="Скриншот3">
+При следующем запуске файла **Perezalivator_Run.bat** откроется окно, в котором необходимо выбрать базу-источник и базу-назначения.
 
 Если необходимо, можно указать дату, на которую необходимо получить данные (всегда используется конец дня).
 
-
+<img src="https://github.com/Tavalik/Perezalivator/raw/master/Screenshots/Perezalivator.png" alt="Скриншот">
 
 После указания всех исходных параметров, перезаливатор начнет работу по следующему алгоритму:
 
@@ -76,8 +70,3 @@ opm install -f <Путь к файлу Perezalivator-<версия>.ospx>
 
 Если в базе-приемнике присутствуют активные соединения, будет показана таблица со всеми соединениями, а также будет предоставлена возможность завершить все активные сеансы.
 
-<img src="https://github.com/Tavalik/Perezalivator/raw/master/Screenshots/Perezalivator4.png" alt="Скриншот4">
-
-Отработав, Перезаливатор выдаст соответствующее сообщение (или сообщение об ошибке), а также отправит сообщение о результате работы на электронную почту.
-
-<img src="https://github.com/Tavalik/Perezalivator/raw/master/Screenshots/Perezalivator5.png" alt="Скриншот5">
