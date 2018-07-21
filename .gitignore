@@ -3,3 +3,4 @@ package-build.bat
 package-build.os
 Perezalivator_Params.json
 .vscode
+sqlite
