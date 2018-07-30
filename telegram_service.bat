@@ -1,0 +1,1 @@
+oscript telegram_servise.os
